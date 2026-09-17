@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F8FAFC;
+    color: #0F172A;
+  }
+}
+
+.font-latin {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Lively Studio Dot Grid Pattern */
+.bg-artistic-grid {
+  background-image: radial-gradient(rgba(99, 102, 241, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-artistic-dots-subtle {
+  background-image: radial-gradient(rgba(148, 163, 184, 0.25) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Energetic Ambient Glow Orbs */
+.glow-orb-violet {
+  position: absolute;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, rgba(168, 85, 247, 0.05) 50%, transparent 70%);
+  filter: blur(70px);
+  pointer-events: none;
+}
+
+.glow-orb-amber {
+  position: absolute;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.12) 0%, rgba(251, 191, 36, 0.04) 50%, transparent 70%);
+  filter: blur(70px);
+  pointer-events: none;
+}
+
+.glow-orb-sky {
+  position: absolute;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.12) 0%, rgba(56, 189, 248, 0.04) 50%, transparent 70%);
+  filter: blur(70px);
+  pointer-events: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Lively Studio Card Style */
+.artistic-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+}
+
+.artistic-card:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 10px 25px -3px rgba(15, 23, 42, 0.08), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+}

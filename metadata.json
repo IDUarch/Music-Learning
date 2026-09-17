@@ -1,0 +1,6 @@
+{
+  "name": "Emitis Music Academy",
+  "description": "سامانه هوشمند و تعاملی آموزش موسیقی امیتیس، شامل تئوری موسیقی، نت‌خوانی، پیانو، تربیت شنوایی، دستگاه‌های موسیقی و مربی هوش مصنوعی",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
